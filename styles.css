@@ -21,6 +21,7 @@ body {
     background: white;
     border-radius: 20px;
     box-shadow: 0 0 4px;
+    margin-bottom: 20px;
     
     display: flex;
 }
