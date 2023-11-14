@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&family=Raleway:ital,wght@0,500;1,100&family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: no-repeat center/ cover url(https://images.unsplash.com/photo-1581447109200-bf2769116351?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 360px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 0 4px;
+    
+    display: flex;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 6px;
+}
+
+#add-task {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 6px;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+#add-task:hover {
+    background-color: green;
+    color: white;
+}
+
+.task {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 4px;
+    padding: 6px;
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 6px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+.task button {
+    flex: 1;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.task .check-task {
+    color: orange;
+    margin-right: 6px;
+    border: 2px solid orange;
+    font-size: 1.4rem;
+}
+
+.task .check-task:hover {
+    background-color: orange;
+    color: white;
+}
+
+.task .delete-task {
+    color: red;
+    margin-right: 6px;
+    border: 2px solid red;
+    font-size: 1.4rem;
+}
+
+.task .delete-task:hover {
+    background-color: red;
+    color: white;
+}
